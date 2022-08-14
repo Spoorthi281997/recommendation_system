@@ -48,7 +48,7 @@ Project Organization
     │   ├── movies.csv     
     │   ├── items.csv      
     │   ├── ratings.csv   
-    │   └── links.csv     
+    │   ├── links.csv     
     │   └──readme.txt     
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
