@@ -39,3 +39,32 @@ git clone git@github.com:Spoorthi281997/recommendation_system.git
 conda create --name <env> --file requirements.txt
 ```
  
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── ml-latest-small
+    │   ├── movies.csv     
+    │   ├── items.csv      
+    │   ├── ratings.csv   
+    │   └── links.csv     
+    │   └──readme.txt     
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── notebooks          <- Jupyter notebooks for content-based and collaborative filtering recommendation system.
+    │
+    ├── references         <- literature survey of few research papers before implementation.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .)
+
+--------
+
+
