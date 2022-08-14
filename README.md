@@ -30,7 +30,10 @@ This project covers understanding and implementing basic techniques for building
 ## Installation
 These instructions will get you a copy of the project up and running on your local machine
 ### Clone
-Clone this repo to your local machine using git@github.com:Spoorthi281997/recommendation_system.git
+Clone this repo to your local machine using -
+```
+git clone git@github.com:Spoorthi281997/recommendation_system.git
+```
 ### Setup
 ```
 conda create --name <env> --file requirements.txt
