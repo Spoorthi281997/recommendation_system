@@ -33,6 +33,6 @@ These instructions will get you a copy of the project up and running on your loc
 Clone this repo to your local machine using git@github.com:Spoorthi281997/recommendation_system.git
 ### Setup
 ```
-conda env create -f environment.yml
+conda create --name <env> --file requirements.txt
 ```
  
