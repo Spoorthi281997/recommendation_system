@@ -10,7 +10,7 @@ Recommender systems are mainly of 2 types – Content-based Filtering and Collab
 Build and compare a movie recommendation system based on ‘MovieLens’ dataset using Content based and Collaborative filtering approach.
 
 ## Dataset
-The MovieLens Latest Dataset is used which consists of 4 dataset files written in comma-separated values. Prior official permission to use the dataset for this project was obtained from GroupLens. This data set consists of 100,000 ratings (0.5-5) from 9000 movies on 600 users and each user has rated at least 20 movies. The dataset can be found on the GroupLens Official Website.
+[The MovieLens Latest Dataset](https://github.com/Spoorthi281997/recommendation_system/tree/main/ml-latest-small) is used which consists of 4 dataset files written in comma-separated values. Prior official permission to use the dataset for this project was obtained from GroupLens. This data set consists of 100,000 ratings (0.5-5) from 9000 movies on 600 users and each user has rated at least 20 movies. The dataset can be found on the GroupLens Official Website.
 
 ## Implementation
 1. Content-based Filtering - Using TF_IDF and Cosine Similarity Metric
@@ -38,10 +38,18 @@ git clone git@github.com:Spoorthi281997/recommendation_system.git
 ```
 conda create --name <env> --file requirements.txt
 ```
- 
+
+## Run
+Run [content_based_filtering](https://github.com/Spoorthi281997/recommendation_system/blob/main/notebooks/content_based_filtering.ipynb) and [collaborative_based_filtering](https://github.com/Spoorthi281997/recommendation_system/blob/main/notebooks/collaborative_based_filtering.ipynb) notebooks for the implementation of content-based and collaborative recommendation system respectively.
+
+## Resources 
+The proposed project implementation is based on two research papers [TF-IDF and cosine similarity Movie Recommendations](https://github.com/Spoorthi281997/recommendation_system/blob/main/references/Movie_Recommendation_System_using_TF-IF_and_Cosine_Similarity_Method.pdf) and [Embedding-based deep learning recommendation approach](https://github.com/Spoorthi281997/recommendation_system/blob/main/references/An_Embedding-based_Deep_Learning_Approach_for_Movie_Recommendation.pdf)
+
+
 Project Organization
 ------------
 
+    
     ├── LICENSE
     ├── README.md          <- The top-level README for developers using this project.
     ├── ml-latest-small
@@ -64,6 +72,7 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .)
+
 
 --------
 
