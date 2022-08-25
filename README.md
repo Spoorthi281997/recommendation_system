@@ -59,14 +59,13 @@ Project Organization
     │   ├── links.csv     
     │   └──readme.txt     
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── notebooks          <- Jupyter notebooks for content-based and collaborative filtering recommendation system.
     │
     ├── references         <- literature survey of few research papers before implementation.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── reports            <- Generated analysis as PDF.
+    │ 
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
