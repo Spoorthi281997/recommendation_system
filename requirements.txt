@@ -5,3 +5,6 @@ tensorflow
 sklearn
 matplotlib
 wordcloud
+pprint
+re
+seaborn
